@@ -3,7 +3,8 @@
 A **Single Page Application (SPA)** built with **React.js** that fetches and displays product data from [FakeStoreAPI](https://fakestoreapi.com).  
 The app includes routing, reusable components, loading/error states, and a responsive UI.
 
-
+## Demo 
+https://product-explorer-spa.netlify.app/
 
 ##  Features
 
