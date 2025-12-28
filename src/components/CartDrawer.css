@@ -1,0 +1,157 @@
+.cart-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1500;
+}
+
+.cart-drawer {
+  position: fixed;
+  top: 0;
+  right: -420px;
+  width: 420px;
+  height: 100vh;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  z-index: 2000;
+}
+
+.cart-drawer.open {
+  right: 0;
+}
+
+.cart-header {
+  padding: 20px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+
+.close-icon {
+  cursor: pointer;
+  font-size: 20px;
+    pointer-events: auto;
+}
+
+
+.cart-body {
+  flex: 1;             
+  overflow-y: auto;      
+  padding: 20px;
+}
+
+.cart-body .empty {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #000;
+}
+
+.cart-body span {
+  color: #777;
+}
+
+.cart-footer {
+  padding: 20px;
+  border-top: 1px solid #eee;
+  flex-shrink: 0;
+}
+
+.cart-footer .row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.cart-footer .total {
+  font-weight: 600;
+  color: #000;
+}
+
+.checkout-btn {
+  width: 100%;
+  margin-top: 15px;
+  padding: 14px;
+  background: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.checkout-btn:hover {
+  background: #333;
+}
+.cart-item {
+  display: flex;
+  gap: 12px;
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.cart-item img {
+  width: 70px;
+  height: 90px;
+  object-fit: contain;
+}
+
+.item-info {
+  flex: 1;
+}
+
+.item-info h4 {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.qty {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.qty button {
+  width: 28px;
+  height: 28px;
+  border: none;
+  background: #f2f2f2;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+  .cart-drawer {
+    width: 100%;
+    right: -100%;
+    height: 100vh;
+    position: fixed;
+    overflow: hidden;
+  }
+
+  .cart-drawer.open {
+    right: 0;
+  }
+
+  .cart-body {
+    flex: 1;
+    overflow-y: auto;
+    padding: 16px;
+    padding-bottom: 160px; 
+  }
+
+  .cart-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    padding: 16px;
+    border-top: 1px solid #eee;
+    z-index: 10;
+  }
+}
+

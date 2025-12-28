@@ -1,0 +1,85 @@
+.collection-page {
+  background: #fff;
+  min-height: 100vh;
+}
+
+.collection-hero {
+  height: 70vh;
+  display: flex;
+  align-items: flex-end;
+  padding: 60px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.all-products-hero {
+  background-image:
+    linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.85)),
+    url("../assets/all.jpeg");
+}
+
+.collection-hero h1 {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 500;
+}
+
+
+.products-grid {
+  padding: 80px 60px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)) !important;
+  gap: 40px;
+}
+
+
+@media (max-width: 768px) {
+  .collection-hero {
+    height: 50vh;
+    padding: 30px;
+  }
+
+  .collection-hero h1 {
+    font-size: 40px;
+  }
+
+  .products-grid {
+    padding: 40px 20px;
+    gap: 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
+
+.card {
+  padding: 1rem; 
+  cursor: pointer; 
+  background-color: #f1f1f1;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+.card img {
+  height: 150px; 
+  object-fit: contain; 
+  width: 100%;
+}
+
+.detail {
+  padding: 2rem; 
+}
+
+.detail img { 
+  height: 250px; 
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  background: black; 
+  color: white; 
+  border: none; 
+  cursor: pointer; 
+}

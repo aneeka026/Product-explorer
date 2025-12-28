@@ -1,0 +1,145 @@
+.product-detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  padding: 120px 100px 100px;
+  background: #fff;
+}
+
+.detail-image img {
+  width: 100%;
+  max-height: 650px;
+  object-fit: contain;
+}
+
+.detail-info {
+  max-width: 450px;
+}
+
+
+.detail-info h1 {
+  font-size: 36px;
+  margin-bottom: 12px;
+}
+
+.subtitle {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.size-section p {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.sizes {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.sizes button {
+  width: 45px;
+  height: 45px;
+  border: 1px solid #ddd;
+  background: #fff;
+  cursor: pointer;
+}
+
+.sizes .active {
+  background: #000;
+  color: #fff;
+}
+
+.price {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.add-cart {
+  width: 100%;
+  padding: 16px;
+  background: #000;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.extra {
+  font-size: 14px;
+  color: #666;
+}
+
+@media (max-width: 900px) {
+  .product-detail {
+    grid-template-columns: 1fr;
+    padding: 100px 30px;
+  }
+}
+
+.product-detail-page .navbar {
+  background: white !important; 
+  color: black !important;
+}
+
+
+.product-detail-page .nav-left a {
+  color: #000 !important;
+}
+
+.back-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.product-detail-page .back-button{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+
+
+.product-hero {
+
+  background-image:
+    linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.8)),
+    url("../assets/bg.jpg");
+
+  position: relative;
+
+  margin-top: -80px;  
+  padding-top: 80px;
+}
+
+.product-hero-overlay {
+  position: absolute;
+  bottom: 60px;
+  left: 60px;
+  color: white;
+  z-index: 2;
+}
+
+.product-hero-overlay h1 {
+  font-size: 64px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+@media (max-width: 768px) {
+  .product-hero-overlay {
+    left: 20px;
+    bottom: 40px;
+  }
+
+  .product-hero-overlay h1 {
+    font-size: 40px;
+  }
+}
