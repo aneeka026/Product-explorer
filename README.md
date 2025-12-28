@@ -39,6 +39,7 @@ The app includes routing, reusable components, loading/error states, and a respo
 
 
 ##  Screenshots 
+<img width="1435" height="774" alt="Page-1" src="https://github.com/user-attachments/assets/4b14e0bd-ca3c-49ff-8795-ac1dbb4228a4" />
 <img width="1436" height="774" alt="Page-2" src="https://github.com/user-attachments/assets/a9d46fb8-1f4f-4640-aeb3-97439149fa6b" />
 <img width="1434" height="775" alt="Page-10" src="https://github.com/user-attachments/assets/f3037635-fd27-4c5b-89c0-17f7dca1bf27" />
 <img width="1432" height="758" alt="Page-9" src="https://github.com/user-attachments/assets/6d1a6b57-ccb8-4a89-afe1-5c592c64cf10" />
