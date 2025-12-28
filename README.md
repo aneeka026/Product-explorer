@@ -51,3 +51,6 @@ https://product-explorer-spa.netlify.app/
 <img width="1434" height="777" alt="Page-8" src="https://github.com/user-attachments/assets/2deb3364-987a-4352-9cf0-cf41587f9ba9" />
 <img width="1434" height="776" alt="Page-7" src="https://github.com/user-attachments/assets/e69879a6-f49f-4c5e-bdbb-1401f607f18a" />
 
+
+## Author
+Aneeka
